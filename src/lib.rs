@@ -85,7 +85,7 @@ impl<'a> LZARIContext<'a> {
     }
 
     fn flush_bit_buffer(&mut self) {
-        for _ in 0..8 {
+        for _ in 0..7 {
             self.put_bit(false);
         }
     }
