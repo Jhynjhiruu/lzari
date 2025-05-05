@@ -1,4 +1,5 @@
 use std::cmp::Ordering;
+use std::mem::size_of;
 
 #[derive(Debug)]
 pub struct LZARIContext<'a> {
